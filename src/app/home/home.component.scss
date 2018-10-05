@@ -1,0 +1,380 @@
+@import '../../scss/variables';
+
+.main-wrapper{
+	padding: 5rem 0;
+}
+
+.bg-dark {
+    background-color: #1abc9c!important;
+}
+
+.logo{
+	margin-bottom: 5rem;
+}
+
+.logo img{
+	width: 20rem;
+}
+
+.logo .logo-text{
+	display: inline-block;
+	float: right;
+	margin-top: 2rem;
+}
+
+.logo .logo-text span{
+	padding-right: 1rem;
+}
+
+.logo .logo-text h1{
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+.logo .logo-text h1:first-child{
+	font-size: 1.6rem;
+	text-align: right;
+	margin-bottom: 1rem;
+}
+
+.dropdown-menu{
+	right: 24px;
+	top: 36px;
+	background: #343a40;
+}
+
+.dropdown-menu a{
+	color: #fff!important;
+	font-size: 1.4rem;
+	text-align: right;
+	text-transform: none;
+	padding: 1rem;
+}
+
+.navbar{
+	padding: 1.5rem 0;
+}
+
+.dropdown-menu a:hover{
+	color: #000!important;
+}
+
+.main-title{
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+.main-title h1{
+	font-size: 3.8rem;
+	color: $primary-color;
+}
+
+.parameters{
+	margin-bottom: 2rem;
+	padding-bottom: 2rem;
+	border-bottom: .1rem solid #d0d0d0;
+	background: #ffffff;
+	padding: 1.7rem;
+}
+
+.parameters h1{
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 1.8rem;
+	vertical-align: bottom;
+	letter-spacing: .1rem;
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
+	border-bottom: .1rem solid #d0d0d0;
+}
+
+.search{
+	margin-bottom: 2rem;
+}
+
+.search h1{
+	display: inline-block;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 1.8rem;
+	vertical-align: bottom;
+	letter-spacing: .1rem;
+}
+
+.search-btn{
+	padding: .8rem 2rem;
+	font-size: 1.4rem;
+	background-color: $primary-color;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.search-field-wrapper{
+	display: inline-block;
+	float : right;
+}
+
+.about-dropdown{
+	width: 20rem;
+	margin-right: 2rem;
+}
+
+.search-field{
+	width: 20rem;
+	transition: all .8s;
+}
+
+.search-field:focus{
+	width: 30rem;
+}
+
+
+
+.personnel{
+	border-radius: .4rem;
+	padding: 1.3rem;
+	background: #ffffff;
+	margin-bottom: 2rem;
+	border: .1rem solid #dedede;
+	// -webkit-box-shadow: 4px 3px 10px -4px rgba(0,0,0,0.63);
+	// -moz-box-shadow: 4px 3px 10px -4px rgba(0,0,0,0.63);
+	// box-shadow: 4px 3px 10px -4px rgba(0,0,0,0.63);
+	position: relative;
+}
+
+.img-box {
+	width: 15rem;
+	height: 15rem;
+}
+
+.img-box img{
+	width: 100%;
+	border-radius: 4px;
+}
+
+.info h1{
+	font-size: 2.2rem;
+	margin-bottom: 1rem;
+}
+
+.info h2{
+	font-size: 1.6rem;
+	color: #cac9c9;
+	font-weight: 400;
+	margin-bottom: 1rem;
+}
+
+.info h3{
+	margin-bottom: 1rem;
+	font-size: 1.4rem;
+}
+
+.assign-btn{
+	font-size: 1.4rem;
+    padding: .3rem 1.5rem;
+    background-color: $primary-color;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-weight: 500;
+}
+
+.detail{
+	position: absolute;
+	top: 10px;
+	right: 15px;
+}
+
+.detail .fa:hover{
+	cursor: pointer;
+}
+
+.add-consultees-btn{
+	color: $primary-color;
+}
+
+.add-consultees-btn:hover{
+	cursor: pointer;
+}
+
+//------------------modal------------
+
+
+.modal-content{
+	border-radius: 0;
+	padding: 4rem 5rem;
+}
+
+.modal-body h1{
+	font-size: 1.6rem;
+	margin-bottom: 1rem;
+	padding-bottom: 1.2rem;
+	// border-bottom: .1rem solid #d6d6d6;
+}
+
+.modal-title{
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	color: $primary-color;
+}
+
+.modal-header,
+.modal-footer{
+	border: none;
+}
+
+.modal-body .col-md-6:first-child{
+	border-right: 1px solid #dedede;
+}
+
+.close{
+	font-size: 4rem;
+	font-weight: 300;
+}
+
+//---------------------------------------------------
+
+.summary{
+	margin-bottom: 2rem
+}
+
+.summary .summary-box{
+	min-height: 10rem;
+	color: #fff;
+	padding: 1.3rem;
+	margin-bottom: .4rem;
+	border-radius: .4rem;
+}
+
+.summary .summary-box h1{
+	font-size: 1.6rem;
+	font-weight: 300;
+	letter-spacing: .1rem;
+	margin-bottom: 3rem;
+}
+
+.summary .summary-box h2{
+	letter-spacing: .1rem;
+	font-weight: 300;
+}
+
+.summary .summary-box h2 span{
+	float: right;
+}
+
+.boxOne{
+	background-color: #e74c3c;
+}
+
+.boxTwo{
+	background-color: #8e44ad;
+}
+
+.boxThree{
+	background-color: #3498db;
+}
+
+.boxFour{
+	background-color: #1abc9c;
+}
+
+//-----------------------------------------------------
+
+
+.navbar-brand{
+	font-size: 1.6rem;
+	font-weight: 700;
+	color:#fff;
+}
+
+.navbar-nav li{
+	font-size: 1.4rem;
+	padding: 0 2rem;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+}
+
+.navbar-nav li a{
+	color: #fff;
+}
+
+.detail-wrapper p{
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+
+#counselorResults{
+	background: #fff;
+	padding: 1.8rem;
+	margin-bottom: 2rem;
+}
+
+.application-status{
+	padding: 1.8rem;
+	background: #fff;
+}
+
+.application-status-header {
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
+	border-bottom: .1rem solid #d0d0d0;
+}
+
+.application-status-header h1{
+	font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    vertical-align: bottom;
+    letter-spacing: .1rem;
+    display: inline-block;
+    
+}
+
+
+table th{
+	border-top: none;
+}
+
+.application-status p{
+	font-size: 1.6rem;
+	padding: 1.3rem;
+}
+
+.application-status p a{
+	font-size: 1.6rem;
+	padding: 1.3rem;
+	color: #333;
+}
+
+.application-status p a:hover{
+	text-decoration: none;
+}
+
+.application-status p:hover{
+	text-decoration: none;
+	background-color: #dadada;
+}
+
+.active{
+	background: #dadada;
+}
+
+
+
+@media only screen and (max-width: 768px){
+	.logo{
+		margin-bottom: 3rem;
+	}
+	
+	.logo img{
+		display: block;
+		margin: 0 auto;
+	}
+
+	.search-field{
+		width: 100%;
+		float: none;
+		margin-top: 1rem;
+	}
+}
+
